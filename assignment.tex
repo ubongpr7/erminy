@@ -1,0 +1,107 @@
+
+documentclass{article}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{hyperref}
+
+\geometry{a4paper, margin=1in}
+\renewcommand{\familydefault}{\sfdefault}
+
+\title{\textbf{Python Basics Assignment: Data Types, Comments, and String Manipulation}}
+\author{Erminy}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Instructions}
+Please answer the following questions based on our recent Python lessons. Write your answers and Python code snippets in a clear and organized manner. For questions requiring you to write a script, please submit the \texttt{.py} file.
+
+\hrulefill
+\vspace{1em}
+
+\section{Inline Assignments from Class}
+
+These are the assignments that were given during the lesson.
+
+\begin{enumerate}
+    \item \textbf{On Comments:}
+    \begin{enumerate}
+        \item Write out seven benefits of using comments in programming.
+        \item What are the best practices to follow when writing comments?
+    \end{enumerate}
+
+    \item \textbf{On Python Keywords:}
+    \begin{enumerate}
+        \item List 39 keywords in Python in a tabular format.
+        \item For each keyword, describe its function and provide a simple example use case.
+        
+        \vspace{0.5em}
+        \textit{You can use the following table structure as a guide:}
+        \begin{center}
+            \begin{tabular}{| m{2cm} | m{5cm} | m{5cm} |}
+                \hline
+                \textbf{Keyword} & \textbf{Function} & \textbf{Example Use Case} \\
+                \hline
+                \texttt{if} & Used for conditional statements. & \texttt{if x > 5: print("x is greater than 5")}\\
+                \hline
+                \texttt{...} & ... & ... \\
+                \hline
+            \end{tabular}
+        \end{center}
+    \end{enumerate}
+\end{enumerate}
+
+\vspace{1em}
+\hrulefill
+\vspace{1em}
+
+\section{New Assignment}
+
+This assignment builds on the concepts of data types and string manipulation.
+
+\begin{enumerate}
+    \item \textbf{Exploring Data Types:}
+    \begin{enumerate}
+        \item Declare three different variables:
+        \begin{itemize}
+            \item One for your favorite number (as an integer).
+            \item One for your favorite movie title (as a string).
+            \item One for the price of an item (as a float, e.g., 19.99).
+        \end{itemize}
+        \item Write a Python script that uses the \texttt{type()} function to print the data type of each variable. The output should be clear, like: \texttt{The data type of [variable_name] is [type]}.
+    \end{enumerate}
+
+    \item \textbf{The Power of Typecasting:}
+    \begin{enumerate}
+        \item Imagine you have a variable \texttt{user_age_str = "25"}. This is a string because it came from user input.
+        \item Write a Python script that converts this string into an integer.
+        \item Perform a calculation: calculate the user's age in 10 years and store it in a new variable.
+        \item Print a sentence that says: \texttt{In 10 years, you will be [new_age] years old.}
+    \end{enumerate}
+
+    \item \textbf{Crafting Sentences:}
+    \begin{enumerate}
+        \item Create three string variables: \texttt{protagonist}, \texttt{place}, and \texttt{action}. Assign a value to each (e.g., "The brave knight", "a dark forest", "searched for the ancient artifact").
+        \item \textbf{Part 1 (Concatenation):} Combine these three variables into a single sentence using the \texttt{+} operator. Remember to add spaces! Print the final sentence.
+        \item \textbf{Part 2 (F-String):} Combine the same three variables into a sentence using an f-string. Print the final sentence.
+    \end{enumerate}
+
+    \item \textbf{Putting It All Together:}
+    \begin{enumerate}
+        \item Create the following variables:
+        \begin{itemize}
+            \item \texttt{name} (string)
+            \item \texttt{age} (integer)
+            \item \texttt{height_meters} (float, e.g., 1.75)
+        \end{itemize}
+        \item Your task is to write a single Python script that prints a descriptive sentence. The sentence must use an f-string and display the person's height in \textbf{centimeters}.
+        \item \textit{Hint:} To convert meters to centimeters, you multiply by 100.
+        \item Example output: \texttt{My friend, Alex, is 30 years old and stands 175.0 cm tall.}
+    \end{enumerate}
+
+\end{enumerate}
+
+\end{document}
